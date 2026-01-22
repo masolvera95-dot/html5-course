@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Course</title>
+  </head>
+  <body>
+    <h1>Formularios en HTML</h1>
+    <p>
+      Se usan para obtener datos e información (input) del usuario para poder
+      procesarlos, mostrarlos o guardarlos segun sea su proposito.
+    </p>
+    <h2>Ejemplo de formularios</h2>
+    <form action="">
+      <p>input tipo text: Es usado para ingresar textos no tan largos.</p>
+      <p>
+        Estos input tienen las propiedades siguientes que son las mas basicas:
+      </p>
+      <ul>
+        <li>requires: Se usa required para que sea campo obligatorio</li>
+        <li>
+          name: Se usa name para identificar la etiqueta y poderla procesar
+          debidamente
+        </li>
+        <li>minlength: para delimitar los caracteres a entrar</li>
+        <li>
+          placeholder: Se usa placeholder son indicaciones para el usuario
+        </li>
+      </ul>
+      <input
+        type="text"
+        required
+        name="username"
+        minlength="3"
+        placeholder="Usuario"
+      />
+      <input
+        type="email"
+        required
+        placeholder="email"
+        name="email"
+        aria-placeholder="Correo"
+      />
+      <input type="password" required placeholder="Contraseña" />
+      <br /><br />
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="file" />
+      <br /><br />
+      <input type="date" />
+      <br /><br />
+      <input type="submit" />
+    </form>
+    <br />
+    <a href="index.html">Volver a inicio</a>
+  </body>
+</html>
