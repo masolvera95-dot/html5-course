@@ -4,24 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML 5 Course</title>
+    <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>HTML Course: Enlace de enlaces</h1>
-    <a href="index.html">Da click aqui si quieres is a la Pagina principal</a>
-    <h2>¿Qué son los enlaces?</h2>
-    <p>
-      Los enlaces son "textos" en una pagina web cuya principal función es
-      dirigirte a un sitio en especifico.
-    </p>
-    <p>
-      Su uso más común es para navegar en una página web aunque también se puede
-      usar para dirigirte a cualquier página web dentro de internet.
-    </p>
-    <p>Aqui unos ejemplos:</p>
-    <ul>
-      <li><a href="https://www.google.com/">Google</a></li>
-      <li><a href="https://www.youtube.com/">YouTube</a></li>
-      <li><a href="index.html">Páginas maliciosas</a></li>
-    </ul>
+    <header class="main-header">
+      <h1 class="main-header__logo">HTML Course: Enlace de enlaces</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="temario.html">Temario</a></li>
+          <li><a href="tarjeta-de-presentacion.html">Sobre Desarrolador</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-area">
+      <section class="post-section">
+        <h2>¿Qué son los enlaces?</h2>
+        <p>
+          Los enlaces son "textos" en una pagina web cuya principal función es
+          dirigirte a un sitio en especifico.
+        </p>
+        <p>
+          Su uso más común es para navegar en una página web aunque también se
+          puede usar para dirigirte a cualquier página web dentro de internet.
+        </p>
+        <p>Aqui unos ejemplos:</p>
+        <ul>
+          <li><a href="https://www.google.com/">Google</a></li>
+          <li><a href="https://www.youtube.com/">YouTube</a></li>
+          <li><a href="index.html">Páginas maliciosas</a></li>
+        </ul>
+      </section>
+      <div><a href="index.html">Volver a inicio</a></div>
+      <div><a href="imagenes.html">Siguiente tema</a></div>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__contact">
+        <address>Contacto: masolvera@gmail.com</address>
+      </div>
+      <div class="main-footer__copy">
+        <p>
+          &copy; Desarrollado por Manuel Alejandro Sánchez Olvera Construido con
+          HTML5 y CSS
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

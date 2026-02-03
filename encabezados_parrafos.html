@@ -3,44 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML 5 Course</title>
+    <title>HTML 5 Course: Encabezado y parrafos</title>
+    <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>Encabezados y parrafos</h1>
-    <p>
-      Los encabezado son importantes en HTML ya que resaltan los temas o las
-      secciones dentro de una pagina web. Como ejemplo 1 se tiene el encabezado
-      de arriva "Encabezados y parrafos". Existen 6 tipos de encabezados que van
-      del 1 al 6, el encabezado mencionado es h1, siendo el mas importante y es
-      considerado el que menciona el tema principar de la página web. Los demas
-      encabezados son los siguientes:
-    </p>
-    <ul>
-      <li>
-        h2:
-        <h2>Ejemplo</h2>
-      </li>
-      <li>
-        h3:
-        <h3>Ejemplo</h3>
-      </li>
-      <li>
-        h4:
-        <h4>Ejemplo</h4>
-      </li>
-      <li>
-        h5:
-        <h5>Ejemplo</h5>
-      </li>
-      <li>
-        h6:
-        <h6>Ejemplo</h6>
-      </li>
-    </ul>
-    <h2>Parrafos</h2>
-    <p>
-      Los parrafos se usan para contener textos, se utilizan con la etiqueta "p"
-    </p>
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <h1 class="main-header__logo">HTML5 Course: Encabezados y parrafos</h1>
+      <nav class="main-header__nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="temario.html">Temario</a></li>
+          <li>
+            <a href="tarjeta-de-presentacion.html">Sobre Desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-area">
+      <section class="post-section">
+        <p>
+          Los encabezado son importantes en HTML ya que resaltan los temas o las
+          secciones dentro de una pagina web. Como ejemplo 1 se tiene el
+          encabezado de arriva "Encabezados y parrafos". Existen 6 tipos de
+          encabezados que van del 1 al 6, el encabezado mencionado es h1, siendo
+          el mas importante y es considerado el que menciona el tema principar
+          de la página web. Los demas encabezados son los siguientes:
+        </p>
+        <ul>
+          <li>
+            h2:
+            <h2>Ejemplo</h2>
+          </li>
+          <li>
+            h3:
+            <h3>Ejemplo</h3>
+          </li>
+          <li>
+            h4:
+            <h4>Ejemplo</h4>
+          </li>
+          <li>
+            h5:
+            <h5>Ejemplo</h5>
+          </li>
+          <li>
+            h6:
+            <h6>Ejemplo</h6>
+          </li>
+        </ul>
+      </section>
+      <section class="post-section">
+        <h2>Parrafos</h2>
+        <p>
+          Los parrafos se usan para contener textos, se utilizan con la etiqueta
+          "p"
+        </p>
+      </section>
+      <div><a href="index.html">Volver a inicio</a></div>
+      <div><a href="listas.html">Siguiente Tema</a></div>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+      <div class="main-footer__copy">
+        <p>&copy; Desarrollado por Manuel Alejandro Sánchez Olvera</p>
+      </div>
+    </footer>
   </body>
 </html>

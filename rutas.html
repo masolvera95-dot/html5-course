@@ -4,19 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML5 Course</title>
+    <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>Rutas en HTML</h1>
-    <p>
-      Las rutas son enlaces que nos dirigen a algun sistio en especifico, la
-      etiqueta que se usa es "a" en donde se especifica la pagina y el texto a
-      mostrar.
-    </p>
-    <p>
-      La imagen se coloca como URL en el parameto "href". El texto se coloca
-      entre la etiqueta de apertura y la de cierre.
-    </p>
-    <a href="https://www.youtube.com/watch?v=p9p6hWkgq-I">Video</a>
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <h1 class="main-header__logo">Rutas en HTML</h1>
+      <nav class="main-header__nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="temario.html">Temario</a></li>
+          <li>
+            <a href="tarjeta-de-presentacion.html">Sobre Desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-area">
+      <section class="post-section">
+        <p>
+          Las rutas son enlaces que nos dirigen a algun sistio en especifico, la
+          etiqueta que se usa es "a" en donde se especifica la pagina y el texto
+          a mostrar.
+        </p>
+        <p>
+          La imagen se coloca como URL en el parameto "href". El texto se coloca
+          entre la etiqueta de apertura y la de cierre.
+        </p>
+        <h2>Por ejemplo</h2>
+        <a href="https://www.youtube.com/watch?v=p9p6hWkgq-I">Video</a>
+      </section>
+      <div><a href="index.html">Volver a inicio</a></div>
+      <div><a href="formularios.html">Siguiente tema</a></div>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+      <div class="main-footer__copy">
+        <p>
+          &copy; Desarrollado por Manuel Alejandro Sánchez Olvera Construido con
+          HTML5 y CSS
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

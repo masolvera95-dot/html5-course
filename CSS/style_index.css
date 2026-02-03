@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.main-header {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.main-header__logo {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.main-header__nav {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.content-area {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.post-section {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.content-area__article {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.main-footer {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.main-footer__contact {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
+
+.main-footer__copy {
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #000;
+}
