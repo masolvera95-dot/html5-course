@@ -6,58 +6,69 @@
 
 body {
   margin: 0;
+  background: #662400;
 }
 
 .main-header {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background-color: #00b3ad;
 }
 
 .main-header__logo {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #ff6b1a;
+  text-align: center;
 }
 
 .main-header__nav {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #ff6b1a;
 }
 
 .content-area {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #00b3ad;
 }
 
 .post-section {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #ff6b1a;
 }
 
 .content-area__article {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #006663;
 }
 
 .main-footer {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #00b3ad;
 }
 
 .main-footer__contact {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #ff6b1a;
 }
 
 .main-footer__copy {
   margin: 5px;
   padding: 5px;
   border: 5px solid #000;
+  background: #ff6b1a;
 }
