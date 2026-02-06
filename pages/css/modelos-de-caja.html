@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Course: Box model</title>
+    <link rel="stylesheet" href="../src/css/style_model_box.css" />
+
+    <link rel="stylesheet" href="../src/css/main.css" />
+  </head>
+  <body>
+    <header class="header__">
+      <div class="header__logo">
+        <h1 class="header__title">CSS Course</h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="introduccion.html" class="header__a">Introduccción</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre el desarrollador</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="main-content__borde__temario">
+        <aside>
+          <ul class="main-content__temario__menu">
+            <li>
+              <a href="introduccion.html" class="main-content__temario"
+                >Introduccción a CSS</a
+              >
+            </li>
+            <li>
+              <a href="selectores.html" class="main-content__temario"
+                >Selectores Basicos</a
+              >
+            </li>
+            <li>
+              <a
+                href="propiedades-fuente-y-texto.html"
+                class="main-content__temario"
+                >Propiedades fuente y texto</a
+              >
+            </li>
+            <li>
+              <a href="modelos-de-caja.html" class="main-content__temario"
+                >Modelos de caja</a
+              >
+            </li>
+            <li>
+              <a
+                href="tarjeta-de-presentacion.html"
+                class="main-content__temario"
+                >***Ejercicio*** Tarjeta de presentación</a
+              >
+            </li>
+            <li>
+              <a class="main-content__temario" href="tamano-caja.html"
+                >Tamaño de caja</a
+              >
+            </li>
+            <li>
+              <a class="main-content__temario" href="colores.html">Colores</a>
+            </li>
+            <li>
+              <a class="main-content__temario" href="unidades-medida.html"
+                >Unidades de medida</a
+              >
+            </li>
+            <li>
+              <a class="main-content__temario" href="fondos.html">Fondos</a>
+            </li>
+            <li>
+              <a class="main-content__temario" href="gradiantes.html"
+                >Gradiantes</a
+              >
+            </li>
+            <li>
+              <a class="main-content__temario" href="sombras.html">Sombras</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <section class="main-content__section">
+        <article class="main-content__article">
+          <h2 class="main-content__title">Modelos de caja</h2>
+          <p>
+            Es el modelo que especifica como se acomodan los elemetos de una
+            pagina web con las siguientes propiedades:
+          </p>
+          <ul class="post-section__list">
+            <li>Contenido: Es el nucleo del box model.</li>
+            <li>Padding: Espacio entre contenido y el borde del elemento</li>
+            <li>Border: Linea que rodea el contenido y el padding</li>
+            <li>
+              Margin: El espacio al rededor de la caja que esta fuea del border.
+            </li>
+          </ul>
+        </article>
+        <article class="main-content__article">
+          <h2 class="main-content__title">width y height</h2>
+          <p>
+            Se tiene un ejemplo con una etiqueta "div" y dentro una "h1", donde
+            "background" es rojo y 200px de ancho y alto (width - height)
+          </p>
+          <div id="ejemplo1">
+            <h1>Ejemplo</h1>
+          </div>
+          <br />
+          <p>
+            Ahora se tiene una etiqueta "form" que contiene 3 etiquetas "input"
+            del siguiente tipo:
+          </p>
+          <ol>
+            <li>text</li>
+            <li>password</li>
+            <li>submit</li>
+          </ol>
+          <p>
+            La etiqueta "form" tiene un ancho de 100% y las etiquetas "input"
+            tiene un ancho del 50% de la etiqueta "form".
+          </p>
+          <form class="ejemplo2">
+            <input class="form1" type="text" placeholder="Correo electronico" />
+            <input class="form1" type="password" placeholder="Contraseña" />
+            <inpu
+              class="form1"
+              type="submit"
+              placeholder="Enviar"
+              value="Iniciar sesion"
+            />
+          </form>
+        </article>
+        <article class="main-content__article">
+          <h2 class="main-content__title">padding y margin</h2>
+          <h3 class="main-content__title">padding</h3>
+          <p>Estacio entre el contenido y el borde de una caja</p>
+          <form class="ejemplo3">
+            <input class="form2" type="text" placeholder="Correo electronico" />
+            <input class="form2" type="password" placeholder="Contraseña" />
+            <input class="form2 form_submit" type="submit" />
+          </form>
+          <h3 class="main-content__title">margin</h3>
+          <p>Se hace el siguiente ejemplo.</p>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <p>La etiqueta "margin" es el espacio fuera del borde.</p>
+        </article>
+        <article class="main-content__article">
+          <h2 class="main-content__title">border</h2>
+          <p>
+            Esta propiedad nos permite editar 3 aspectos fundamentales de los
+            bordes:
+          </p>
+          <ol>
+            <li>Tamaño: border-width</li>
+            <li>Estilo: border-style</li>
+            <li>Color: border-color</li>
+          </ol>
+          <h3 class="main-content__title">Ejemplo con bordes</h3>
+          <div class="ejemplo_bordes">Hola mundo!</div>
+          <p>Otro ejemplo</p>
+          <div class="ejemplo_bordes2">Hola mundo!</div>
+          <br />
+          <div class="ejemplo_bordes_input">
+            <input class="border_input" type="text" placeholder="Usuario" />
+            <input
+              class="border_input"
+              type="password"
+              placeholder="Contraseña"
+            />
+            <input class="border_input_submit" type="submit" />
+          </div>
+        </article>
+        <div class="main-content__btn">
+          <a href="../index.html" class="main-content__a">Volver a inicio</a>
+        </div>
+        <div class="main-content__btn">
+          <a href="tamano-caja.html" class="main-content__a">Siguiente tema</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer__">
+      <div class="footer__social">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+
+      <div class="footer__copy">
+        <p>
+          &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
+          Construido con HTML5 y CSS
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

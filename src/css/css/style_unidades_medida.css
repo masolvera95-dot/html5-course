@@ -1,0 +1,25 @@
+.div__ejemplo {
+  background: #ededed;
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  border-left: 5px solid #999;
+}
+
+.h2__ejemplo {
+  margin: 0;
+  font-size: 20px;
+}
+
+.span__mesage {
+  color: #999;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.p__notification {
+  color: #555;
+  font-size: 13px;
+  margin: 0;
+  width: 97%;
+}
