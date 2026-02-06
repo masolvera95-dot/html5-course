@@ -18,7 +18,7 @@ body {
   color: #2d3436;
 
   /* Apariencia */
-  background-color: #FF0203;
+  background-color: #ff0203;
   min-height: 100vh;
 
   /* Mejor renderizado de texto */
@@ -31,7 +31,7 @@ body {
 .header__ {
   border: 2px solid #2d3436;
   margin: 21px;
-  background: #E86702;
+  background: #e86702;
   display: flex;
   box-sizing: border-box;
   flex-direction: row; /* Los elementos se alinean en fila (es el valor por defecto) */
@@ -47,7 +47,7 @@ body {
   padding-left: 15px;
   width: 205px;
   border-radius: 20px;
-  background: #FF550F;
+  background: #ff550f;
   box-shadow: 2px 2px 2px 2px #2d3436;
   text-decoration: underline overline;
   box-sizing: border-box;
@@ -80,8 +80,10 @@ body {
 .main-content {
   border: 2px solid #2d3436;
   margin: 21px;
-  background: #E86702;
+  background: #e86702;
   box-sizing: border-box;
+  display: flex;
+  gap: 20px;
 }
 
 .main-content__img {
@@ -91,9 +93,11 @@ body {
 .main-content__section {
   border: 2px solid #2d3436;
   margin: 10px;
+  margin-left: -14px;
   padding-left: 15px;
   background: #ccea8d;
   font-size: 18px;
+  width: 80%;
 }
 
 .main-content__article {
@@ -103,6 +107,19 @@ body {
   margin-bottom: 10px;
   padding-left: 30px;
   background: #fff;
+}
+
+.main-content__borde__temario {
+  border: 2px solid #2d3436;
+  margin: 10px;
+  background: #ccea8d;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.main-content__temario__menu {
+  justify-content: center;
+  text-align: left;
 }
 
 .main-content__temario {
@@ -162,5 +179,4 @@ body {
 .imagen {
   width: 550px;
   margin: 20px;
-
 }
