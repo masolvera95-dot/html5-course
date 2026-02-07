@@ -18,11 +18,170 @@ body {
   color: #333333;
 
   /* Fondo y dimensiones */
-  background-color: #f4f4f4;
+  background-color: #333;
   min-height: 100vh; /* Asegura que el body ocupe al menos toda la pantalla */
 
   /* Suavizado de fuentes (Toque Pro) */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Se delimita border de header */
+.header__ {
+  border: 2px solid #333333;
+  padding: 10px;
+  margin: 5px;
+  height: 120px;
+  background: #e28c4a;
+  box-sizing: border-box;
+  /* Flexbox */
+  display: flex;
+  flex-direction: row; /* Los elementos se alinean en fila (es el valor por defecto) */
+  justify-content: space-between; /* Controla la alineación horizontal (izquierda, centro, derecha) */
+  align-items: center; /* Controla la alineación vertical de los elementos dentro de la fila */
+  gap: 10px; /* Espacio opcional entre los elementos */
+}
+/* Estilo para contenedor de imajen */
+.header___logo__container {
+  flex-shrink: 0;
+}
+/* Se modifican la imagenes */
+.header__logo__img {
+  max-height: 80px;
+  width: auto;
+  display: block;
+}
+.header__logo__img__css {
+  max-height: 87px;
+  width: auto;
+  display: block;
+}
+/* Estilo para el menú de nav */
+.header__nav {
+  border: 2px solid #333;
+  height: 80px;
+  width: 80%;
+  padding-top: 20px;
+  background: #555;
+  border-radius: 23px;
+  /* flex-grow: 1; */
+}
+/* Estilo para ul */
+.header__nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para li */
+.header__item {
+}
+
+/* Estilo para los li y a */
+.header__a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+/* Estilo para cambiar de color a */
+.header__a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Se delimitan bordes de Hero */
+.hero {
+  border: 2px solid #333333;
+  background: #e28c4a;
+  margin: 5px;
+  width: auto;
+  padding: 5px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero__container {
+  border: 2px solid #333;
+  min-height: 80vh;
+  width: 50%;
+
+  box-sizing: border-box;
+  padding-bottom: 3%;
+  /* padding-top: 10%; */
+}
+
+.container__html {
+  background: orangered;
+  color: #f0f0f0;
+}
+
+.container__css {
+  background: blue;
+  color: #f0f0f0;
+}
+
+.hero__title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero__text {
+  text-align: left;
+  padding-left: 3%;
+  font-size: 20px;
+}
+
+.hero__actions {
+  border: 2px solid #333;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 3%;
+  background: #333;
+}
+
+
+.hero__a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+
+
+/* Se delimita border de main */
+.main-content {
+  border: 2px solid #333;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  background: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* Se delimita border de footer */
+.footer__ {
+  border: 2px solid #f0f0f0;
+  background: #111;
+  color: #f0f0f0;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
 }
